@@ -30,7 +30,7 @@ El pipeline ha sido validado utilizando un **dataset sintético de alta fidelida
   python scripts/dataset_builder.py
 ```
 
-* # 🛠️ Módulo 1: Entorno de Ejecución e Infraestructura de Cómputo
+# 🛠️ Módulo 1: Entorno de Ejecución e Infraestructura de Cómputo
 
 Este bloque inicial establece las bases operativas de la **Iniciativa 5 (IPH Asistido por IA)**. Su objetivo es garantizar el aprovisionamiento de hardware acelerado y la instalación del stack de software necesario para la ejecución de los tres motores cognitivos del C5.
 
@@ -52,7 +52,7 @@ Se realiza el aprovisionamiento silencioso (`-q`) de los frameworks oficiales de
 
 > ⚠️ **Nota Operativa:** Se recomienda ejecutar esta celda al inicio de cada sesión para inicial
 
-* # 🔐 Módulo 2: Protocolo de Autenticación y Gobernanza de Modelos
+# 🔐 Módulo 2: Protocolo de Autenticación y Gobernanza de Modelos
 
 Este bloque gestiona la conexión cifrada hacia los servidores de almacenamiento de modelos (*Hugging Face Hub*). Su implementación responde a las directrices de seguridad de la información y control de accesos institucionales del C5.
 
@@ -71,7 +71,7 @@ Una vez validada la firma criptográfica del Token:
 > 2. Genere un token con rol de **Lectura (Read)** designado para este entorno.
 > 3. Pegue el código hash en la caja de diálogo que desplegará la celda inferior y presione Enter.
 
-* # 📊 Módulo 3: Infraestructura Estadística y Registro Base de Métricas
+# 📊 Módulo 3: Infraestructura Estadística y Registro Base de Métricas
 
 Este bloque establece el núcleo analítico y la memoria global del cuaderno. Su objetivo es centralizar de manera automatizada el registro de los indicadores clave de rendimiento (KPIs) de cada modelo para su posterior consolidación en el reporte ejecutivo para la junta del C5.
 
@@ -88,7 +88,7 @@ Para evitar la manipulación manual de los resultados y garantizar la transparen
 * **Normalización de Métricas de Calidad:** Redondea estrictamente a 4 decimales los valores de **Accuracy, Precision, Recall y F1-Score** calculados por Scikit-Learn, adaptándolos a los estándares de reportes técnicos internacionales.
 * **Manejo de Redundancia Sintáctica:** Implementa una bandera lógica para modelos de lenguaje generativos (como el resumidor) que por su naturaleza formal no utilizan un indicador de `Accuracy` directo, sustituyendo el valor matemático por una etiqueta `"N/A"` para no romper la consistencia de la tabla final.
 
-* # 🏷️ Módulo 4: Modelo 1 - Clasificación Semántica y Tipificación de Delitos (Zero-Shot)
+# 🏷️ Módulo 4: Modelo 1 - Clasificación Semántica y Tipificación de Delitos (Zero-Shot)
 
 Este bloque implementa el primer motor cognitivo del pipeline. Su función principal es interceptar la narrativa libre e informal dictada por el radio-operador o primer respondiente y clasificarla automáticamente dentro de los tipos penales prioritarios del C5 sin requerir entrenamiento previo en esta celda.
 
@@ -108,7 +108,7 @@ Al cierre del ciclo, los vectores `Y_true` (verdad de campo) y `Y_pred` (predicc
 * **Accuracy:** Proporción global de clasificaciones correctas.
 * **Precision & Recall (Macro Average):** Evalúan de forma balanceada la tasa de falsos positivos y falsos negativos por cada delito independiente, garantizando que el modelo sea robusto ante clases poco frecuentes en la muestra.
 
-* # 👤📍 Módulo 5: Modelo 2 - Reconocimiento de Entidades Nombradas (NER)
+# 👤📍 Módulo 5: Modelo 2 - Reconocimiento de Entidades Nombradas (NER)
 
 Este bloque despliega el segundo motor cognitivo del sistema, encargado de la minería de texto estructurada. Su objetivo es analizar la narrativa libre de forma algorítmica para aislar de manera automática los datos de filiación (nombres de personas) y variables geoespaciales (ubicaciones, calles y avenidas) que alimentarán directamente las bases de datos de Plataforma México sin intervención manual.
 
@@ -164,7 +164,7 @@ Al visualizar el Dataframe resultante, la junta debe centrar su análisis en dos
 * **El Eje de Latencia (Velocidad de Despacho):** Permite evaluar si la suma de los tiempos de los tres modelos vulnera el Acuerdo de Niveles de Servicio (SLA) del despacho de emergencias. El procesamiento secuencial acumulado óptimo demuestra la eficiencia de los modelos en la GPU T4.
 * **El Eje de Calidad (F1-Score):** Proporciona la certeza matemática de que la automatización no corromperá el flujo legal del IPH, manteniendo un equilibrio robusto entre precisión (evitar falsas alarmas o tipificaciones erróneas) y exhaustividad (no omitir detalles clave o personas involucradas).
 
-* # ⚡ Módulo 8: Pipeline de Inferencia Unificado en Tiempo Real (Prueba de Concepto Base)
+# ⚡ Módulo 8: Pipeline de Inferencia Unificado en Tiempo Real (Prueba de Concepto Base)
 
 Este bloque de código representa el corazón operativo de la **Iniciativa 5**. Su objetivo es demostrar ante la junta del C5 cómo se comporta el sistema bajo condiciones reales de despacho en el CAD (Control de Atención a Despacho), consolidando los tres modelos de Inteligencia Artificial en una sola ráfaga de ejecución secuencial sobre la GPU T4.
 
@@ -190,8 +190,8 @@ Al dar *Play* a la celda inferior, el sistema generará una bitácora detallada 
 3. **Etapa 3 (Síntesis del IPH):** Genera la reducción determinista del texto en lenguaje formal técnico para el llenado automático del bloque de hechos.
 
 > 📊 **Reporte de Consolidación Final:** El bloque cierra imprimiendo el **Resumen Ejecutivo Consolidado**, aislando la **Latencia Acumulada** total. Esta métrica representa el indicador clave para demostrar que el pipeline es capaz de resolver un escenario criminal completo en una fracción de segundo, validando la agilidad del sistema antes de pasar a la demostración avanzada con Fine-Tuning.
->
-> # 🗂️ Módulo 9: Dataset Sintético Ampliado (Aumento de Datos para Fine-Tuning)
+
+# 🗂️ Módulo 9: Dataset Sintético Ampliado (Aumento de Datos para Fine-Tuning)
 
 Este bloque define el corpus de entrenamiento especializado para la fase de ajuste fino (*Fine-Tuning*). Ante la imposibilidad de extraer registros reales de los servidores de producción del C5 por motivos de confidencialidad legal y secrecía, se implementa una estrategia de **Aumento de Datos Sintéticos Especializados**.
 
@@ -239,7 +239,7 @@ El bloque ejecuta un análisis comparativo estricto aislando los gradientes (`to
 1. **Fase Inicial (Modelo Base):** Mide la precisión con pesos inicializados de forma aleatoria, simulando el comportamiento de un clasificador genérico comercial que no conoce el vocabulario policial del C5 (arrojando precisiones cercanas al azar, aprox. 33.3%).
 2. **Fase Optimizada (Post Fine-Tuning):** Imprime en consola la reducción sistemática de la pérdida (*Loss*) época por época y recalcula los indicadores finales (Accuracy, Precision, Recall y F1-Score) mediante Scikit-Learn, demostrando visualmente ante la junta el salto de rendimiento institucional logrado en milisegundos.
 
-# 🚀 Módulo 11: Pipeline de Producción Unificado con Ajuste Fino Integrado en Tiempo Real
+🚀 Módulo 11: Pipeline de Producción Unificado con Ajuste Fino Integrado en Tiempo Real
 
 Este módulo representa el entregable consolidado de la **Iniciativa 5** para la junta operativa del C5. Consiste en una arquitectura híbrida de dos fases que resuelve en una sola ejecución secuencial tanto la optimización paramétrica local de la red como la inferencia paralela de múltiples modelos masivos de lenguaje (LLMs), garantizando la máxima resiliencia ante errores de desborde de índices o fallas de red externa.
 
