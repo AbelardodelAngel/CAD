@@ -52,7 +52,7 @@ Se realiza el aprovisionamiento silencioso (`-q`) de los frameworks oficiales de
 
 > ⚠️ **Nota Operativa:** Se recomienda ejecutar esta celda al inicio de cada sesión para inicial
 
-# 🔐 Módulo 2: Protocolo de Autenticación y Gobernanza de Modelos
+* # 🔐 Módulo 2: Protocolo de Autenticación y Gobernanza de Modelos
 
 Este bloque gestiona la conexión cifrada hacia los servidores de almacenamiento de modelos (*Hugging Face Hub*). Su implementación responde a las directrices de seguridad de la información y control de accesos institucionales del C5.
 
@@ -71,7 +71,7 @@ Una vez validada la firma criptográfica del Token:
 > 2. Genere un token con rol de **Lectura (Read)** designado para este entorno.
 > 3. Pegue el código hash en la caja de diálogo que desplegará la celda inferior y presione Enter.
 
-# 📊 Módulo 3: Infraestructura Estadística y Registro Base de Métricas
+* # 📊 Módulo 3: Infraestructura Estadística y Registro Base de Métricas
 
 Este bloque establece el núcleo analítico y la memoria global del cuaderno. Su objetivo es centralizar de manera automatizada el registro de los indicadores clave de rendimiento (KPIs) de cada modelo para su posterior consolidación en el reporte ejecutivo para la junta del C5.
 
