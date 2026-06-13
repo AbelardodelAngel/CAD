@@ -164,6 +164,9 @@ Al visualizar el Dataframe resultante, la junta debe centrar su análisis en dos
 * **El Eje de Latencia (Velocidad de Despacho):** Permite evaluar si la suma de los tiempos de los tres modelos vulnera el Acuerdo de Niveles de Servicio (SLA) del despacho de emergencias. El procesamiento secuencial acumulado óptimo demuestra la eficiencia de los modelos en la GPU T4.
 * **El Eje de Calidad (F1-Score):** Proporciona la certeza matemática de que la automatización no corromperá el flujo legal del IPH, manteniendo un equilibrio robusto entre precisión (evitar falsas alarmas o tipificaciones erróneas) y exhaustividad (no omitir detalles clave o personas involucradas).
 
+<img width="704" height="159" alt="image" src="https://github.com/user-attachments/assets/be6f1549-6230-46ff-8e2e-f50bfd5c50e9" />
+
+
 # ⚡ Módulo 8: Pipeline de Inferencia Unificado en Tiempo Real (Prueba de Concepto Base)
 
 Este bloque de código representa el corazón operativo de la **Iniciativa 5**. Su objetivo es demostrar ante la junta del C5 cómo se comporta el sistema bajo condiciones reales de despacho en el CAD (Control de Atención a Despacho), consolidando los tres modelos de Inteligencia Artificial en una sola ráfaga de ejecución secuencial sobre la GPU T4.
