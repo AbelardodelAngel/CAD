@@ -29,7 +29,7 @@ El pipeline ha sido validado utilizando un **dataset sintético de alta fidelida
 ```bash
   python scripts/dataset_builder.py
 
-# 🛠️ Módulo 1: Entorno de Ejecución e Infraestructura de Cómputo
+* # 🛠️ Módulo 1: Entorno de Ejecución e Infraestructura de Cómputo
 
 Este bloque inicial establece las bases operativas de la **Iniciativa 5 (IPH Asistido por IA)**. Su objetivo es garantizar el aprovisionamiento de hardware acelerado y la instalación del stack de software necesario para la ejecución de los tres motores cognitivos del C5.
 
@@ -50,5 +50,8 @@ Se realiza el aprovisionamiento silencioso (`-q`) de los frameworks oficiales de
 | `seqeval` | Paquete especializado en la evaluación de consistencia para el modelo NER (Etiquetado de Entidades). |
 
 > ⚠️ **Nota Operativa:** Se recomienda ejecutar esta celda al inicio de cada sesión para inicial
+
+
+
 
 
