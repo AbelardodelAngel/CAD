@@ -1,0 +1,13 @@
+Plaintext
+# Bibliotecas base para procesamiento de datos
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Bibliotecas de Deep Learning y NLP
+torch>=2.0.0
+transformers>=4.30.0
+scikit-learn>=1.2.0
+
+# Bibliotecas de utilidad para el pipeline
+tqdm>=4.65.0
+requests>=2.31.0
