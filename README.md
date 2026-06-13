@@ -28,7 +28,7 @@ El pipeline ha sido validado utilizando un **dataset sintético de alta fidelida
 * **Reproducibilidad:** El dataset puede ser regenerado ejecutando el script de soporte:
 ```bash
   python scripts/dataset_builder.py
----
+```
 
 * # 🛠️ Módulo 1: Entorno de Ejecución e Infraestructura de Cómputo
 
