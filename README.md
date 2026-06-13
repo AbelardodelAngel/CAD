@@ -194,6 +194,8 @@ Al dar *Play* a la celda inferior, el sistema generará una bitácora detallada 
 
 > 📊 **Reporte de Consolidación Final:** El bloque cierra imprimiendo el **Resumen Ejecutivo Consolidado**, aislando la **Latencia Acumulada** total. Esta métrica representa el indicador clave para demostrar que el pipeline es capaz de resolver un escenario criminal completo en una fracción de segundo, validando la agilidad del sistema antes de pasar a la demostración avanzada con Fine-Tuning.
 
+<img width="1082" height="305" alt="image" src="https://github.com/user-attachments/assets/d66210a5-3072-4a37-81d1-addf521a7951" />
+
 # 🗂️ Módulo 9: Dataset Sintético Ampliado (Aumento de Datos para Fine-Tuning)
 
 Este bloque define el corpus de entrenamiento especializado para la fase de ajuste fino (*Fine-Tuning*). Ante la imposibilidad de extraer registros reales de los servidores de producción del C5 por motivos de confidencialidad legal y secrecía, se implementa una estrategia de **Aumento de Datos Sintéticos Especializados**.
@@ -215,6 +217,8 @@ A diferencia de los textos genéricos de internet, las 100 narrativas incorporan
 
 ### 3. Sincronización del Vector de Control (*Ground Truth*)
 El script automatiza la generación del vector objetivo `Y_sintetico_true` utilizando concatenación de arreglos multiplicados de PyTorch/Python (`[0] * 34 + [1] * 33 + [2] * 33`). Esto garantiza una correspondencia posicional estricta ($1:1$) con la lista `narrativas_sinteticas`, sentando las bases para que la función de pérdida `CrossEntropyLoss` calcule los gradientes sin desbordamientos de memoria ni errores de índice.
+
+<img width="268" height="52" alt="image" src="https://github.com/user-attachments/assets/962155f9-df2e-458d-9927-6f42f4d44dfc" />
 
 # ⚙️ Módulo 10: Demostración de Fine-Tuning e Inferencia de Gradientes (PyTorch)
 
@@ -242,6 +246,8 @@ El bloque ejecuta un análisis comparativo estricto aislando los gradientes (`to
 1. **Fase Inicial (Modelo Base):** Mide la precisión con pesos inicializados de forma aleatoria, simulando el comportamiento de un clasificador genérico comercial que no conoce el vocabulario policial del C5 (arrojando precisiones cercanas al azar, aprox. 33.3%).
 2. **Fase Optimizada (Post Fine-Tuning):** Imprime en consola la reducción sistemática de la pérdida (*Loss*) época por época y recalcula los indicadores finales (Accuracy, Precision, Recall y F1-Score) mediante Scikit-Learn, demostrando visualmente ante la junta el salto de rendimiento institucional logrado en milisegundos.
 
+<img width="541" height="281" alt="image" src="https://github.com/user-attachments/assets/e417903d-2a27-43d9-9809-3019fc13ee7b" />
+
 🚀 Módulo 11: Pipeline de Producción Unificado con Ajuste Fino Integrado en Tiempo Real
 
 Este módulo representa el entregable consolidado de la **Iniciativa 5** para la junta operativa del C5. Consiste en una arquitectura híbrida de dos fases que resuelve en una sola ejecución secuencial tanto la optimización paramétrica local de la red como la inferencia paralela de múltiples modelos masivos de lenguaje (LLMs), garantizando la máxima resiliencia ante errores de desborde de índices o fallas de red externa.
@@ -262,6 +268,9 @@ Para mitigar las fallas técnicas comunes documentadas en las fases previas de d
 
 ### 3. Panel de Control Consolidado y Métricas Finales
 Al finalizar el recorrido de las tres etapas de inferencia, la celda calcula la latencia acumulada física de la CPU/GPU y despliega el **Panel Final de Control General**. Este reporte resume el estado de completitud de las casillas del formulario digital, la categoría jurídica dictaminada bajo el algoritmo refinado y el tiempo exacto invertido tanto en el ajuste fino como en el despacho de la emergencia, sirviendo como métrica de auditoría técnica frente a los comités de evaluación institucional.
+
+<img width="1248" height="315" alt="image" src="https://github.com/user-attachments/assets/79d31401-1e9d-4b06-af78-e26109fbfc2f" />
+
 
 
 
